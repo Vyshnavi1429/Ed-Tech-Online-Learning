@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 
-const API = 'https://ed-tech-online-learning.onrender.com'
+const API = 'https://ed-tech-online-learning.onrender.com/api'
 
 function App() {
   const [page, setPage] = useState('home')
